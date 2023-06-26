@@ -1,0 +1,70 @@
+
+
+body{
+    width:1000px;
+    height: 630px;
+    margin: 0 auto;
+
+}
+.alii{
+    width:850px;
+    height: 630px;
+    background-color: lightblue;
+    margin: auto;
+}
+.zero{
+    
+    display: grid;
+    grid-auto-rows: minmax(50px,auto);
+    grid-template-areas: 
+    "head head head head"
+    "para khal khal khaa"
+    "para khal khal khaa"
+    "para khal khal khaa"
+    "kha kha kha kha"
+    ;
+    gap: 10px;
+    margin-top:  20px;
+    padding: 10px;
+}
+.one{
+    grid-area: head;
+    background-color: blue;
+    padding:40px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.two{
+    grid-area: para;
+    background-color: red;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 170px;
+
+}
+.three{
+    grid-area: khal;
+    background-color: aqua;
+    text-align: center;
+    height: 200px;
+    padding-top:170px;
+    font-size: 30px;
+
+}
+.four{
+    grid-area: khaa;
+    background-color: blueviolet;
+    text-align: center;
+    padding-top:170px;
+    font-size: 30px;
+
+
+} 
+.five{
+    grid-area: kha;
+    background-color: brown;
+    text-align: center;
+    padding:35px;
+    font-size: 30px;
+} 
